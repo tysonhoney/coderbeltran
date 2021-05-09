@@ -1,0 +1,94 @@
+.logo { 
+   
+    transform: scale(1.5);
+    transition: 2s;
+    text-align: center;
+}
+ 
+.htxt {
+
+   font-size: 90px;
+   
+   background-clip: border-box;
+   text-align: center;
+
+}
+
+.rounded-circle {
+    text-align: center;
+}
+ .parf
+{
+    text-align: center;
+    display: inline-block;
+     font-family: cursive;
+     font-weight: bold;
+     font-style: italic;
+     font-size: 30px;
+     margin: 10px 10px 10px 12px;
+     padding: 10px 10px 10px 12px ;
+  
+
+}
+
+
+section{
+    display: inline-block;
+    justify-content: space-around;
+    padding: top;
+}
+
+
+
+div {
+    grid-column-gap 1.5 ;
+    display: flex;
+flex-wrap: nowrap;
+grid-row-gap; 
+align-content: center;
+}
+
+.descripcion {
+    background-color: #ca68b2;
+    text-align: center;
+    height: 70;
+    width: 90;
+}
+.titulo_cita {
+    font-size: 70px;
+
+}
+
+
+p{
+   
+}
+
+body {
+    
+    background-image: linear-gradient(#e6a5d5, #fbfdfd);
+
+ }
+
+
+ ul {
+    list-style: none;
+    font-size: 20px
+ }
+ li {
+     background-color: #f0afe1;
+ }
+ a:hover {
+    background-color: #555;
+    display: inline-flex;
+ }
+    
+    @media (min-width: 600px) {
+        div.example {
+        font-size: 80px;
+        }
+        @media (max-width: 600px) {
+        div.example {
+        font-size: 30px;
+        }
+        
